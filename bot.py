@@ -8,7 +8,7 @@ from pyrogram.errors import ApiIdInvalid, ApiIdPublishedFlood, AccessTokenInvali
 logging.basicConfig(level=logging.INFO, encoding="utf-8", format="%(asctime)s - %(levelname)s - \033[32m%(pathname)s: \033[31m\033[1m%(message)s \033[0m")
 
 app = Client(
-    "Session_bot",
+    "Heartless",
     api_id=env.API_ID,
     api_hash=env.API_HASH,
     bot_token=env.BOT_TOKEN,
