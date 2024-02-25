@@ -1,7 +1,7 @@
 from telethon import TelegramClient
 from pyrogram.types import Message
 from pyrogram import Client, filters
-from asyncio.exceptions import TimeoutError
+from asyncio import TimeoutError
 from telethon.sessions import StringSession
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 from pyrogram.errors import (
